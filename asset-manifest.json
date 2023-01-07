@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ArquiteturaSite/static/css/main.55d8bd2e.css",
+    "main.js": "/ArquiteturaSite/static/js/main.b275c7d2.js",
+    "static/media/PredioTorto.jpg.webp": "/ArquiteturaSite/static/media/PredioTorto.jpg.846b8555a4f27e9086e9.webp",
+    "index.html": "/ArquiteturaSite/index.html",
+    "main.55d8bd2e.css.map": "/ArquiteturaSite/static/css/main.55d8bd2e.css.map",
+    "main.b275c7d2.js.map": "/ArquiteturaSite/static/js/main.b275c7d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55d8bd2e.css",
+    "static/js/main.b275c7d2.js"
+  ]
+}
