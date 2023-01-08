@@ -1,7 +1,6 @@
 import styled from "styled-components"
 import ChinaZun from "./imgs/ChinaZun.jpg"
 import Laplaza from "./imgs/Laplaza.jpg"
-import PredioTorto from "./imgs/PredioTorto.jpg.webp"
 import { useState } from "react"
 
 const Main = styled.div`
