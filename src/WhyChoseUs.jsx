@@ -1,7 +1,8 @@
 import styled from "styled-components"
 import ChoseYouSquare from "./components/ChoseYouSquare"
 import TagPreco from "./imgs/TagPreço.png"
-import WatchIcon from "./imgs/RelogioIcon.png"
+import Watch from "./imgs/Relogio.png"
+import Engine from "./imgs/Engine.png"
 
 const Main = styled.div`
     background-color: #FCFCFD;
@@ -40,8 +41,8 @@ export default function WhyChoseUs() {
             <h1>Why Choose Us?</h1>
             <Squares>
                 <ChoseYouSquare imagem={TagPreco} texto="Affordable Price"/>
-                <ChoseYouSquare imagem={WatchIcon} texto="Fast Process"/>
-                <ChoseYouSquare/>
+                <ChoseYouSquare imagem={Watch} texto="Fast Process"/>
+                <ChoseYouSquare imagem={Engine} texto="Custom Design"/>
             </Squares>
         </Main>
     )

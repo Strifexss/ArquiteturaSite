@@ -5,6 +5,8 @@
 }
 
 body {
-  background-color: #121212;
+  background: rgb(18,18,18);
+  background: linear-gradient(335deg, rgba(18,18,18,1) 65%, rgba(18,39,60,1) 78%, rgba(18,47,76,1) 81%, rgba(18,53,87,1) 83%, rgba(17,100,177,1) 100%);
   color: #fff;
+
 }

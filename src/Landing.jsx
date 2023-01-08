@@ -78,6 +78,8 @@ const ImagemMain = styled.div`
     img {
         width: 30rem;
         height: 45rem;
+        border-top-left-radius: 30%;
+        border-bottom-right-radius: 30%;
 
         @media screen and (max-width: 900px) {
             width: 20rem;

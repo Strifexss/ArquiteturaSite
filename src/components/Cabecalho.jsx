@@ -30,6 +30,7 @@ const Main = styled.header`
         font-weight: bold;
         transition: 0.1s;
         margin-right: 2rem;
+        border: none;
 
         @media screen and (max-width: 900px) {
             margin-right: 0;
