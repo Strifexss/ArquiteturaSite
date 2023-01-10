@@ -4,7 +4,8 @@ const Main = styled.div`
     display: grid;
     grid-template-columns: 50% 50%;
     margin-top: 3rem;
-
+    background-color: #fff;
+    color: black;
     @media screen and (max-width: 900px) {
        display: flex;
        justify-content: center;
@@ -36,7 +37,7 @@ const Textos = styled.div`
     flex-direction: column;
     align-items: flex-start;
     padding: 3rem;
-
+    margin-top: 2rem;
     @media screen and (max-width: 900px) {
         justify-content: center;
         align-items: center;

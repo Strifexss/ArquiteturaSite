@@ -41,8 +41,8 @@ export default function WhyChoseUs() {
             <h1>Why Choose Us?</h1>
             <Squares>
                 <ChoseYouSquare imagem={TagPreco} texto="Affordable Price"/>
-                <ChoseYouSquare imagem={Watch} texto="Fast Process"/>
-                <ChoseYouSquare imagem={Engine} texto="Custom Design"/>
+                 <ChoseYouSquare imagem={Watch} texto="Fast Process"/>
+                <ChoseYouSquare imagem={Engine} texto="Custom Design"/>            
             </Squares>
         </Main>
     )

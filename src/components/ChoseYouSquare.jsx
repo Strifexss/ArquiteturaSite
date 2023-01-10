@@ -1,5 +1,5 @@
 import styled from "styled-components"
-
+import Reveal from "react-reveal/Fade"
 const Main = styled.div`
     background-color: #FFFFFF;
     border: 2px solid #E9ECF1;
@@ -98,13 +98,15 @@ const Imagem = styled.div`
 
 export default function ChoseYouSquare(props) {
     return(
-        <Main>
-            <Imagem>
-                <img src={props.imagem} alt="Imagem" />
-            </Imagem>
-            <h2>{props.texto}</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci qui aperiam distinctio mollitia est blanditiis</p>
-            <h3>Learn More</h3>
-        </Main>
+        <Reveal bottom big> 
+            <Main>
+                <Imagem>
+                    <img src={props.imagem} alt="Imagem" />
+                </Imagem>
+                <h2>{props.texto}</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci qui aperiam distinctio mollitia est blanditiis</p>
+                <h3>Learn More</h3>
+            </Main>
+        </Reveal>
     )
 }

@@ -2,10 +2,9 @@ import styled from "styled-components"
 import ChinaZun from "./imgs/ChinaZun.jpg"
 import Laplaza from "./imgs/Laplaza.jpg"
 import { useState } from "react"
-
+import Reveal from "react-reveal/Fade"
 const Main = styled.div`
-     background-color: #FCFCFD;
-     color: black;
+     color: #fff;
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -186,7 +185,8 @@ export default function SomeProjects() {
 
     return(
         <Main>
-            <h1>Some of our projects</h1>
+            <Reveal bottom big>
+            <h1 id="Testando">Some of our projects</h1>
             <Projects>
                 <Imagem>
                     <img id="ImagemPrincipal" src={troca} alt="Predio" />
@@ -212,6 +212,7 @@ export default function SomeProjects() {
                     </OutrosGrid>
                 </Texto>
             </Projects>
+            </Reveal>
         </Main>
     )
 }
