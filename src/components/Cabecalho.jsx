@@ -6,7 +6,7 @@ const Main = styled.header`
     justify-content: space-between;
     align-items: center;
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1100px) {
         flex-direction: column;
 }
 

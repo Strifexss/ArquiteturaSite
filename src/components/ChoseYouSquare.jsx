@@ -13,6 +13,21 @@ const Main = styled.div`
     align-items: flex-start;
     flex-direction: column;
     
+    @media screen and (max-width: 1400px) {
+        width: 25rem;
+        height: 30rem;
+        margin: 1rem;
+    }
+   
+    @media screen and (max-width: 1200px) {
+        width: 15rem;
+        margin: 1rem;
+    }
+    @media screen and (max-width: 900px) {
+        width: 25rem;
+        height: 30rem;
+    }
+
     h2{
         margin: 1rem;
         font-size: 1.5rem;
@@ -35,6 +50,10 @@ const Main = styled.div`
         margin: 1rem;
         font-size: 1.5rem;
         cursor: pointer;
+
+        @media screen and (max-width: 900px) {
+            margin: 0.5rem;
+        }
     }
 
     
@@ -60,6 +79,7 @@ const Imagem = styled.div`
     justify-content: center;
     align-items: center;
 
+
     @media screen and (max-width: 900px) {
         width: 4rem;
         height: 4rem;
@@ -68,6 +88,11 @@ const Imagem = styled.div`
     img{
         width: 3rem;
         height: 3rem;
+
+        @media screen and (max-width: 900px) {
+            margin: 0.5rem;
+        }
+        
     }
 `
 

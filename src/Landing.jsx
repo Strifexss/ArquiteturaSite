@@ -6,7 +6,7 @@ margin-top: 4rem;
 display: grid;
 grid-template-columns: 50% 50%;
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
     display: flex;
     flex-direction: column;
     justify-content: center;

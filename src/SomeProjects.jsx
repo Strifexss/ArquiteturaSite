@@ -23,7 +23,7 @@ const Main = styled.div`
 
         @media screen and (max-width: 900px) {
             text-align: center;
-       
+            margin-top: 1rem;
     }
     }
 `
@@ -53,9 +53,24 @@ const Imagem = styled.div`
         border-top-left-radius: 20%;
         border-bottom-right-radius: 20% ;
 
-        @media screen and (max-width: 900px) {
-            height: 20rem;
+
+
+        @media screen and (max-width: 844px) {
+           height: 30rem;
+    }
+        @media screen and (max-width: 900px) and (min-width: 845px) {
+           height: 65rem;
+    }
+        @media screen and (max-width: 1235px) and (min-width: 901px) {
+            transform: translateY(-10rem);
+    }
+        @media screen and (min-width: 1236px) {
+            transform: translateY(-5rem);
+    }
+        @media screen and (max-width: 1700px) and (min-width: 1600px) {
+            height: 40rem;
             margin-top: 2rem;
+            transform: translateY(-5rem);
     }
 
     }
@@ -102,7 +117,7 @@ const Outros = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin-top:1rem;
     :hover{
         h2{
             display: block;
@@ -121,9 +136,9 @@ const Outros = styled.div`
         height: 15rem;
         margin: 2rem;
 
-        @media screen and (max-width: 900px) {
+        @media screen and (max-width: 844px) {
             margin: 0;
-            margin-top: 2rem;
+            margin-top: 0rem;   
         }
         
     }
