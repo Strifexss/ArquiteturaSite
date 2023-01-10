@@ -160,7 +160,7 @@ export default function SomeProjects() {
             <h1>Some of our projects</h1>
             <Projects>
                 <Imagem>
-                    <img src={troca} alt="Predio" />
+                    <img id="ImagemPrincipal" src={troca} alt="Predio" />
                 </Imagem>
                 <Texto>
                     <Titulo>
@@ -173,11 +173,11 @@ export default function SomeProjects() {
                     </Others>
                     <OutrosGrid>
                         <Outros onClick={TrocarChina}>
-                            <img src={ChinaZun} alt="Predio" />
+                        <a href="#ImagemPrincipal"> <img src={ChinaZun} alt="Predio" /> </a>
                             <h2>China Zun</h2>                            
                         </Outros>
                         <Outros onClick={TrocarPlaza}>
-                            <img src={Laplaza} alt="Predio" />
+                        <a href="#ImagemPrincipal"> <img src={Laplaza} alt="Predio" /> </a>
                             <h2>La Plaza</h2>
                         </Outros>
                     </OutrosGrid>

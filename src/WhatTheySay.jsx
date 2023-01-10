@@ -71,7 +71,7 @@ export default function WhatTheySay() {
             <Textos>
                 <h1>What our customers say</h1>
                 <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere adipisci quidem consectetur. Distinctio facilis facere nulla consectetur, fugiat at perspiciatis aliquid fuga ratione dolore beatae obcaecati fugit magni aliquam id! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea corrupti eligendi, neque labore, numquam cum inventore ut molestiae maxime provident itaque temporibus esse alias dolorem! Ratione voluptatem quod repudiandae laborum. "</p>
-                <h2>Frank Taylon</h2>
+                <h2>-Frank Taylon</h2>
             </Textos>
         </Main>
     )
