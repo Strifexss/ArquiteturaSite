@@ -11,6 +11,7 @@ const Main = styled.div`
        align-items: center;
        flex-direction: column;
 }
+
 `
 
 const Imagem = styled.div`

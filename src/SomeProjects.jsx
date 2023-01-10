@@ -128,6 +128,7 @@ const Outros = styled.div`
         img{
             filter: blur(0.4rem);
             cursor: pointer;
+
         }
     }
 
@@ -139,13 +140,26 @@ const Outros = styled.div`
         @media screen and (max-width: 844px) {
             margin: 0;
             margin-top: 0rem;   
+            filter: blur(0.4rem);
         }
+
+        @media screen and (max-width: 1630px) and (min-width: 901px) {
+            width: 15rem;
+            height: 10rem;
+            margin: 1rem;
+           
+}          
         
     }
 
     h2{
         position: absolute;
         display: none;
+        color: #fff;
+
+        @media screen and (max-width: 844px) {
+            display: block;
+        }
     }
 `
 
